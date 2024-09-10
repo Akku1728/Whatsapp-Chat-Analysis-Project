@@ -10,14 +10,21 @@ The project focuses on processing and analyzing text data from WhatsApp chat log
 
 ## Libraries used:
 -	Streamlit : used for creating interactive web application, data uploading and processing, visualizing insights, text analytics interface etc these kind of tasks.
+  
 -	Pandas : used for creating and manipulating data in a structured format, specifically in the form of DataFrames. It assists with converting dates, extracting time-based features, and organizing chat data for further analysis.
+  
 -	Matplotlib : used in this file to create various visualizations of chat data, including timelines, bar charts, and pie charts
+  
 -	Seaborn : used for creating informative and attractive statistical graphics, mainly the heatmap that was implemented in the project
+  
 -	URLExtract : used to extract URLs from text messages
--	WordCloud : used to create a visual representation of word frequency in chat messages, generating an image where more common words appear larger.
+-	WordCloud : used to create a visual representation of word frequency in chat messages, generating an image where more common words appear larger
+  
 -	Emoji : used to identify and extract emojis from chat messages, allowing for the creation of a frequency count of emojis used in the conversation
--	Re : Used for pattern matching and splitting text in the preprocessor.py file. It helps extract timestamps, users, and messages from raw chat data by identifying specific patterns.
--	Counter : used to efficiently count occurrences of words and emojis in chat messages, simplifying the process of identifying and ranking the most frequently used elements in the conversation.
+  
+-	Re : Used for pattern matching and splitting text in the preprocessor.py file. It helps extract timestamps, users, and messages from raw chat data by identifying specific patterns
+  
+-	Counter : used to efficiently count occurrences of words and emojis in chat messages, simplifying the process of identifying and ranking the most frequently used elements in the conversation
 
 ## General Approach: 
 This project aims to analyze WhatsApp chat data, providing insights into messaging patterns, user activity, and content trends. It uses Python for data processing and analysis, and Streamlit for creating an interactive web application to visualize the results.
