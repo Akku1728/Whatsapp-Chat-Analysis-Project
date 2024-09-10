@@ -5,5 +5,4 @@ seaborn
 URLExtract
 WordCloud
 emoji
-re
 Counter
